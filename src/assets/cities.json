@@ -1,0 +1,28 @@
+{
+    "city": [
+        {
+            "name": "Mumbai"
+        },
+        {
+            "name": "Goa"
+        },
+        {
+            "name": "Thailand"
+        },
+        {
+            "name": "Dubai"
+        },
+        {
+            "name": "Delhi"
+        },
+        {
+            "name": "Pune"
+        },
+        {
+            "name": "Banglore"
+        },
+        {
+            "name": "Kashmir"
+        }
+    ]
+}

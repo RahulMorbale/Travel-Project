@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "from": "Mumbai",
+            "to": "Goa",
+            "duration": "6N",
+            "flights": "2 Flights",
+            "hotel": "2 Hotels",
+            "activities": "3 Activities",
+            "price": 50000
+        },
+        {
+            "from": "Mumbai",
+            "to": "Goa",
+            "duration": "4N",
+            "flights": "2 Flights",
+            "hotel": "2 Hotels",
+            "activities": "3 Activities",
+            "price": 30000
+        },
+        {
+            "from": "Mumbai",
+            "to": "Dubai",
+            "duration": "6N",
+            "flights": "3 Flights",
+            "hotel": "3 Hotels",
+            "activities": "5 Activities",
+            "price": 90000
+        },
+        {
+            "from": "Delhi",
+            "to": "Thailand",
+            "duration": "8N",
+            "flights": "2 Flights",
+            "hotel": "5 Hotels",
+            "activities": "5 Activities",
+            "price": 180000
+        },
+        {
+            "from": "Mumbai",
+            "to": "Banglore",
+            "duration": "6N",
+            "flights": "3 Flights",
+            "hotel": "1 Hotels",
+            "activities": "3 Activities",
+            "price": 50000
+        },
+        {
+            "from": "Mumbai",
+            "to": "Kashmir",
+            "duration": "6N",
+            "flights": "2 Flights",
+            "hotel": "2 Hotels",
+            "activities": "5 Activities",
+            "price": 80000
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+<div class="card col-xxl-8  container mt-5" style="height: 230px;background-color: #eec4f1;">
+    <div class="row m-3 mb-4">
+        <div class="col-md-12 row" style="display: contents;">
+            <form [formGroup]="vaccationFormObj" style="display: contents;">
+                <div class="col-lg-6 " style="padding-right: 0;">
+                    <label class="form-label">From :
+                    </label>
+                    <input style="height: 50px; font-weight: bold;background-color: #AC92ED;" type="text" name="" id=""
+                        class="form-control w-100" formControlName="from">
+                </div>
+                <div class="col-lg-6" style="padding-left: 0;">
+                    <label class="form-label">To :
+                    </label>
+                    <input style="height: 50px; font-weight: bold;background-color: #AC92ED;" type="text" name="" id=""
+                        class="form-control w-100" formControlName="to">
+                </div>
+            </form>
+        </div>
+    </div>
+    <button style="height: 62px;margin: auto;background-color: #c2c3f7;" class="w-25 container-fluid"
+        (click)="searchPackages()">Search</button>
+</div>
+
+<!-- <div class="row  card">
+    <div class="card col-sm-3" *ngFor="let item of vaccationRecords">
+        <div>
+            <div>{{item.to}}</div>
+        </div>
+    </div>
+</div> -->
+
+<div class="card mt-5 container-fluid" (click)="bookThePackage()">
+    <div class="row-cols-4" style="width: 100%;" *ngFor="let item of vaccationRecords">
+        <div class=" col-sm-6 col-md-5 col-lg-3 mb-3" >
+            <div class="card mousepointer" style="display: -webkit-box; margin-right: -36px;" >
+                <div class="card-body">{{item.to}} </div>
+                <div class="card-body">{{item.flights}} </div>
+                <div class="card-body">{{item.activities}} </div>
+                <div class="card-body">{{item.price | currency:'INR'}} </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+
+
+
+
+
+
+
+<!-- <div class="card col-xxl-8  container mt-5" style="height: 230px;background-color: #eec4f1;">
+    <div class="row m-3 mb-4">
+        <div class="col-md-12 row" style="display: contents;">
+            <form [formGroup]="vaccationFormObj">
+                <div class="col-lg-6 " style="padding-right: 0;"> From
+                    <select style="height: 50px; font-weight: bold;background-color: #AC92ED;" [(ngModel)]="from"
+                        class="w-100" formControlName="from">
+                        <option value="" *ngFor="let item of city">{{item.name}}</option>
+                    </select>
+                </div>
+                <div class="col-lg-6" style="padding-left: 0;"> To
+                    <select style="height: 50px; font-weight: bold;background-color: #AC92ED;" [(ngModel)]="to" class="w-100"
+                        formControlName="to">
+                        <option value="" *ngFor="let item of city">{{item.name}}</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+    <button style="height: 62px;margin: auto;background-color: #c2c3f7;" class="w-25 container-fluid"
+        (click)="searchPackages()">Search</button>
+</div> -->
